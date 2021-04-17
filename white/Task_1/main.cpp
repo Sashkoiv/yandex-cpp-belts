@@ -10,3 +10,16 @@
  * fire fog wood -> fire
  */
 
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+
+int main(){
+    vector<string> words(3);
+    cin>> words[0] >> words[1] >> words[2];
+    cout<<*min_element(words.begin(), words.end())<<endl;
+
+    return 0;
+}
