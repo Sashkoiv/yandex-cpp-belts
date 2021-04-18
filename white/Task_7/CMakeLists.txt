@@ -9,5 +9,7 @@ project(Task_7)
 add_executable(
     ${PROJECT_NAME}
     main.cpp
+    accessory.cpp
+    accessory.hpp
 )
 
